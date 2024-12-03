@@ -25,6 +25,11 @@ python -m venv venv
 .\venv\Scripts\activate  
 ```
 
+### Instalar o django
+```
+pip install django
+```
+
 ### Realizar as migrações do banco de dados, caso precise
 ```
 python manage.py migrate
@@ -34,3 +39,8 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+
+### Por fim no browser terá que aparecer isto:
+URL: <http://127.0.0.1:8000/>
+![image](https://github.com/user-attachments/assets/3f496f31-2599-475e-941a-ff6829276bfe)
